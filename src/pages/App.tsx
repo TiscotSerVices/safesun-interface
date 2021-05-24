@@ -38,11 +38,7 @@ const BodyWrapper = styled.div`
   }
 `
 
-  const credentials: Credentials = {
-    token: apiKey,
-  }
-
-  useGetDocumentTitlePrice()
+const CACHE_KEY = 'pancakeSwapLanguage'
 
   return (
     <Suspense fallback={null}>
