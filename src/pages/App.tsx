@@ -1,8 +1,6 @@
-import React, { Suspense, useState } from 'react'
+import React, { Suspense } from 'react'
 import { HashRouter, Route, Switch } from 'react-router-dom'
 import styled from 'styled-components'
-import { Credentials, StringTranslations } from '@crowdin/crowdin-api-client'
-import { LangType } from '@pancakeswap-libs/uikit'
 import Popups from '../components/Popups'
 import Web3ReactManager from '../components/Web3ReactManager'
 import { RedirectDuplicateTokenIds, RedirectOldAddLiquidityPathStructure } from './AddLiquidity/redirects'
@@ -14,12 +12,8 @@ import RemoveLiquidity from './RemoveLiquidity'
 import Swap from './Swap'
 import Migration from './Migration'
 import { RedirectPathToSwapOnly } from './Swap/redirects'
-import { EN, allLanguages } from '../constants/localisation/languageCodes'
-import { LanguageContext } from '../hooks/LanguageContext'
-import { TranslationsContext } from '../hooks/TranslationsContext'
 
 import Menu from '../components/Menu'
-import useGetDocumentTitlePrice from '../hooks/useGetDocumentTitlePrice'
 
 const AppWrapper = styled.div`
   display: flex;
@@ -38,7 +32,6 @@ const BodyWrapper = styled.div`
   }
 `
 
-const CACHE_KEY = 'pancakeSwapLanguage'
 
 export default function App() {
 
