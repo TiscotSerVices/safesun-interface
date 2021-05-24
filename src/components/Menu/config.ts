@@ -1,11 +1,7 @@
 import { MenuEntry } from '@pancakeswap-libs/uikit'
 
 const config: MenuEntry[] = [
-  {
-    label: 'Home',
-    icon: 'HomeIcon',
-    href: 'https://pancakeswap.finance/',
-  },
+
   {
     label: 'Trade',
     icon: 'TradeIcon',
@@ -77,10 +73,7 @@ const config: MenuEntry[] = [
         label: 'Blog',
         href: 'https://pancakeswap.medium.com',
       },
-      {
-        label: 'Merch',
-        href: 'https://pancakeswap.creator-spring.com/',
-      },
+
     ],
   },
 ]
