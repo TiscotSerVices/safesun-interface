@@ -40,6 +40,8 @@ const BodyWrapper = styled.div`
 
 const CACHE_KEY = 'pancakeSwapLanguage'
 
+export default function App() {
+
   return (
     <Suspense fallback={null}>
       <HashRouter>
