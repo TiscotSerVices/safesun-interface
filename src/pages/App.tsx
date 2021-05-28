@@ -26,9 +26,5 @@ const AppWrapper = styled.div`
 
 export default function App() {
 
-  return (
-    <Suspense fallback={null}>
-      
-    </Suspense>
-  )
-}
+  return null
+  
