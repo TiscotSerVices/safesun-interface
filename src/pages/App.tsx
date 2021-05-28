@@ -13,7 +13,6 @@ import Swap from './Swap'
 import Migration from './Migration'
 import { RedirectPathToSwapOnly } from './Swap/redirects'
 
-import Menu from '../components/Menu'
 
 const AppWrapper = styled.div`
   display: flex;
