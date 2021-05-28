@@ -30,6 +30,7 @@ const BodyWrapper = styled.div`
     margin-bottom: 0;
   }
 `
+<<<<<<< HEAD
 export default function App() {
 
   return (
@@ -42,3 +43,5 @@ export default function App() {
     </Suspense>
   )
 }
+=======
+>>>>>>> 94dd8a8db2b29efc509a58b5e15e75ada92c6b03
