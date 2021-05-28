@@ -28,11 +28,7 @@ export default function App() {
 
   return (
     <Suspense fallback={null}>
-      <HashRouter>
-        <AppWrapper>
-
-        </AppWrapper>
-      </HashRouter>
+      
     </Suspense>
   )
 }
